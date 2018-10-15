@@ -1,0 +1,76 @@
+#header {
+    background-color: green;
+}
+
+#main {
+    background-color: red;
+}
+
+#footer {
+    background-color: gray;
+}
+
+h1 {
+    color: red;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+p {
+    background-color: tomato
+}
+
+#ourvision {
+    font-size: 30px;
+    text-align: center;
+}
+
+.just-bg {
+    background-color: aqua
+}
+
+.box1 {
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+.h1 {
+    display: inline-block;
+}
+.try1{
+    display: block;
+    float: left;
+    width: 50%;
+    background-color: red;
+}
+
+.try {
+    display: block;
+    float: left;
+    width: 50%;
+    background-color: green;
+}
+.try2{
+    display: inline-block;
+    background-color: black;
+    padding: 20px;
+    height: 20px;
+    width: 100%;
+}
+
+.try3{
+    display: block;
+    width: 50%;
+    float: left;
+    height: 50px;
+    background-color: aqua rebeccapurple;
+}
+
+
+header, main, footer {
+    display: block;
+    width: 100%;
+    float: left;
+}
