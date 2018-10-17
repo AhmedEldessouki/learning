@@ -106,7 +106,7 @@ label {
     display: inline-block;
 }
 
-.row{
+.form-content-container{
     text-align: center;
 }
 
@@ -153,7 +153,7 @@ input[type=submit]:hover {
     margin-top: 6px;
 }
 
-.row::after{
+.form-content-container::after{
     content: "";
     display: table;
     clear: both;
