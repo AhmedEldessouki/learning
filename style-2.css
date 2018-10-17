@@ -18,7 +18,8 @@ main{
 }
 .logo {
     padding: 12px;
-    color: black;
+    color: lightgray;
+    font-weight: 700;
     text-decoration: none;
     text-align: center;
     font-size: 25px;
@@ -29,8 +30,7 @@ main{
 
 .header-right a {
     float: left;
-    color: black;
-    text-align: center;
+    color: lightgray;
     padding: 12px;
     text-decoration: none;
     font-size: 18px;
@@ -77,9 +77,11 @@ img{
     padding: 25px;
     opacity: 0.9;
     text-decoration: none;
+    color: gainsboro;
 }
 
 h4{
+    color: gainsboro;
     text-align: center;
 }
 
@@ -110,7 +112,7 @@ label {
 
 input[type=submit] {
     display: inline-block;
-    background-color: green;
+    background-color: gray;
     color: #ddd;
     padding: 12px 20px;
     cursor: pointer;
@@ -124,7 +126,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: black;
+    background-color: darkgray;
 }
 
 .container {
@@ -140,7 +142,7 @@ input[type=submit]:hover {
 
 .col-25{
     float: left;
-    width: 25%;
+    width: 28%;
     margin-top: 6px;
     align-content: center;
 }
@@ -170,4 +172,5 @@ table {
     font-size: 14px;
     padding: 25px;
     margin: auto;
-}
+    color: lightgray;
+    }
