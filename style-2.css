@@ -115,7 +115,7 @@ input[type=submit]:hover {
     align-items: center;
     margin-top: 6px;
 }
-/****/
+
 .row::after{
     content: "";
     display: table;
