@@ -69,6 +69,25 @@ img:hover{
     box-sizing: border-box;
 }
 
+.prices{
+    position: absolute;
+    top: 2.5%;
+    left: 2.5%;
+    border: 1px solid transparent;
+    background-color: grey;
+    padding: 25px;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+h4{
+    text-align: center;
+}
+
+p{
+    text-justify: initial;
+}
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
