@@ -29,3 +29,4 @@ dist
 
 # Cheki Alex Dev Server
 .htpasswd
+*.json
