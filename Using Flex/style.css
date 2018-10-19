@@ -1,115 +1,88 @@
-header {
-	position: fixed;
-	display: flex;
-	width: 100%;
-	font-size: 16px;
-	font-family: 'Roboto', sans-serif;
-	background-color: rgba(0, 173, 255, 1);
-	box-sizing: border-box;
-	top: 0;
-	left: 0;
-	height: 105px;
-	padding: 0 25px;
+
+html {
+    box-sizing: border-box;
 }
 
-.header-content-container {
-	display: flex;
-	flex-wrap: wrap;
-	align-content: space-around;
-	flex-direction: row;
-	width: 100%;
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
-.left-side {
-	margin: auto;
-}
-
-.left-side span {
-	font-size: 18px;
-	text-align: center;
-	opacity: 0.5;
-	padding: 5px;
-	color: white;
-}
-
-.logo {
-	text-decoration: none;
-}
-
-.header-content-container button {
-	background-color: transparent;
-	opacity: 0.8;
-	border: 0.5px solid white;
-	padding: 3px 10px;
-	color: white;
-	margin-left: 5px;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-ms-border-radius: 5px;
-	-o-border-radius: 5px;
-}
-
-.right-side {
-	margin: auto auto auto 774px;
-}
-
-ul {
-    list-style: none;
+body {
+    font-family: sans-serif;
     margin: 0;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
+    background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+}
+
+a {
+    color:white;
+}
+
+.plan ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.plan ul li {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding:10px;
+}
+
+.plan ul li:last-child {
+    border-bottom: 0;
+}
+
+.plan a {
+    text-decoration: none;
+    background:#FEFF00;
+    padding:10px;
+    color:black;
+    border-radius:4px;
+}
+
+
+.plan h2 {
+    text-transform: uppercase;
+    color:white;
+    letter-spacing: 2px;
+    text-shadow:3px 3px 0 rgba(0,0,0,0.1);
+}
+
+.price {
+    font-size: 50px;
+    font-family: serif;
+    margin: 10px 0;
+}
+/* Flex Container!!! */
+
+.pricing-grid{
     display: flex;
-    justify-content: flex-end;
+    max-width: 750px;
+    margin: 0 auto;
+    /*padding: 15px;*/
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    justify-content: space-around;
 }
 
-li a {
-	text-decoration: none;
-	display: block;
-	padding: 1em;
-	color: white;
+.plan{
+    margin: 20px;
+    padding: 20px;
+    flex: 1; /*is it = flex: 0 1 100%;*/
+        /*border: 1px solid red;*/
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.2);
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.plan >*{
+    flex: 1;
+    flex-basis: 100%;
 }
 
-li a:hover {
-	background: #00b7f5;
-}
+.plan .cta{
+    align-self: flex-end;
 
-@media screen and (max-width: 1200px) {
-	.left-side, .right-side {
-		margin: initial;
-		flex: 0 0 50%;
-	}
-
-	.right-side {
-		display: flex;
-		justify-content: flex-end;
-	}
-}
-
-@media screen and (max-width: 500px) {
-	.left-side, .right-side {
-		flex: 0 0 100%;
-	}
-
-	.left-side {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.right-side {
-		justify-content: center;
-	}
-
-	.header-toolbar {
-		flex: 0 0 100%;
-		padding: 0;
-		justify-content: center;
-	}
-
-	.header-toolbar li a {
-		color: #000;
-	}
 }

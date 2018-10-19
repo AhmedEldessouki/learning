@@ -1,0 +1,16 @@
+.wrap-container{
+    display: flex;
+    height: 100%;
+    flex-flow: row wrap;
+    list-style-type: none;
+    background-color: blanchedalmond;
+    justify-content: space-evenly;
+
+}
+
+.wrap-container-items{
+    flex-basis: 400px;
+    flex-grow: 1;
+    text-align: center;
+    background-color: red;
+}
