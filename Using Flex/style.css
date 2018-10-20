@@ -76,6 +76,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     height: 100%;
+ 
 }
 .plan >*{
     flex: 1;
